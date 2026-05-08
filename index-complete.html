@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="好好柯的桌面">
+    <meta name="theme-color" content="#fef8fc">
+    <meta name="description" content="好好柯的桌面 - 少女温柔风格的手机桌面">
+    <title>好好柯的桌面 - 完整版</title>
+    <link rel="stylesheet" href="style-complete.css">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%23ff6b9d' width='180' height='180'/><text x='90' y='90' font-size='80' fill='white' text-anchor='middle' dominant-baseline='middle'>好</text></svg>">
+</head>
+<body>
+    <div class="phone-screen">
+        <!-- 左右翻页按钮 -->
+        <button class="nav-btn nav-prev">‹</button>
+        <button class="nav-btn nav-next">›</button>
+
+        <!-- ==================== 页面1：主桌面 ==================== -->
+        <div class="page page-home active">
+            <!-- 个人信息卡片 -->
+            <div class="profile-card">
+                <div class="snowflakes-bg"></div>
+                <div class="avatar">
+                    <img src="https://picsum.photos/id/40/100/100" alt="头像">
+                </div>
+                <div class="nickname">好好柯</div>
+                <div class="id">HHK_id</div>
+                <div class="bio">淡淡的就会顺顺的</div>
+                <div class="location">📍 台北, 台灣</div>
+            </div>
+
+            <!-- 中间组件区 -->
+            <div class="widget-area">
+                <!-- 爱情纪念卡片 -->
+                <div class="love-widget">
+                    <div class="days">6<span>天</span></div>
+                    <div class="couple-avatars">
+                        <img src="https://picsum.photos/id/64/60/60" alt="女生头像">
+                        <img src="https://picsum.photos/id/91/60/60" alt="男生头像">
+                    </div>
+                    <div class="love-text">🐰 恋爱纪念 🐻</div>
+                    <div class="date">2026.05.02</div>
+                </div>
+
+                <!-- 应用网格 -->
+                <div class="app-grid">
+                    <div class="app-icon" data-page="page-message">
+                        <div class="icon">💬</div>
+                        <span>消息</span>
+                    </div>
+                    <div class="app-icon" data-page="page-contacts">
+                        <div class="icon">👤</div>
+                        <span>名册</span>
+                    </div>
+                    <div class="app-icon" data-page="page-moments">
+                        <div class="icon">🌍</div>
+                        <span>此时此刻</span>
+                    </div>
+                    <div class="app-icon" data-page="page-world">
+                        <div class="icon">🐰</div>
+                        <span>世界书</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 底部Dock栏 -->
+            <div class="dock-bar">
+                <div class="dock-icon" data-page="page-home">
+                    <div class="icon">🐱</div>
+                    <span>外观</span>
+                </div>
+                <div class="dock-icon" data-page="page-moments">
+                    <div class="icon">💕</div>
+                    <span>情侣空间</span>
+                </div>
+                <div class="dock-icon" data-page="page-forum">
+                    <div class="icon">P❤P</div>
+                    <span>论坛</span>
+                </div>
+                <div class="dock-icon" data-page="page-settings">
+                    <div class="icon">⚙️</div>
+                    <span>设置</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== 页面2：动态页面 ==================== -->
+        <div class="page page-moments">
+            <!-- 顶部导航 -->
+            <div class="page-header">
+                <button class="back-btn">‹</button>
+                <span class="title">我的動態</span>
+                <button class="menu-btn">⋯</button>
+            </div>
+
+            <!-- 心情状态 -->
+            <div class="mood-status">
+                <span class="heart">❤️</span>
+                <span class="mood-text">心情不錯 100%</span>
+            </div>
+
+            <!-- 动态卡片 -->
+            <div class="moments-container">
+                <!-- 图片卡片 -->
+                <div class="moment-card image-card">
+                    <div class="moment-images">
+                        <img src="https://picsum.photos/id/10/150/150" alt="moment1">
+                        <img src="https://picsum.photos/id/20/150/150" alt="moment2">
+                        <img src="https://picsum.photos/id/30/150/150" alt="moment3">
+                    </div>
+                </div>
+
+                <!-- 用户动态卡片 -->
+                <div class="moment-card user-card">
+                    <div class="user-header">
+                        <div class="user-info">
+                            <img class="user-avatar" src="https://picsum.photos/id/64/40/40" alt="user">
+                            <div class="user-details">
+                                <div class="user-name">玉米魚還更BZZ</div>
+                                <div class="user-id">hhk</div>
+                            </div>
+                        </div>
+                        <div class="user-actions">
+                            <div class="time-badge">5:20</div>
+                            <button class="image-btn">🖼️</button>
+                        </div>
+                    </div>
+                    <div class="moment-content">
+                        <p>物極必反否極泰來</p>
+                        <div class="moment-date">01/01/2026</div>
+                    </div>
+                    <div class="moment-actions">
+                        <span class="action-icon">😊</span>
+                        <span class="action-icon">💬</span>
+                        <span class="action-icon">❤️</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dock栏 -->
+            <div class="dock-bar">
+                <div class="dock-icon" data-page="page-home">
+                    <div class="icon">🐱</div>
+                    <span>外观</span>
+                </div>
+                <div class="dock-icon" data-page="page-moments">
+                    <div class="icon">💕</div>
+                    <span>情侶空間</span>
+                </div>
+                <div class="dock-icon" data-page="page-forum">
+                    <div class="icon">P❤P</div>
+                    <span>論壇</span>
+                </div>
+                <div class="dock-icon" data-page="page-settings">
+                    <div class="icon">⚙️</div>
+                    <span>設置</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== 页面3：日历页面 ==================== -->
+        <div class="page page-calendar">
+            <!-- 日历容器 -->
+            <div class="calendar-container">
+                <div class="calendar-header">
+                    <span class="month">5月</span>
+                    <span class="year">2026年</span>
+                </div>
+
+                <!-- 日历网格 -->
+                <div class="calendar-grid">
+                    <div class="weekday">日</div>
+                    <div class="weekday">一</div>
+                    <div class="weekday">二</div>
+                    <div class="weekday">三</div>
+                    <div class="weekday">四</div>
+                    <div class="weekday">五</div>
+                    <div class="weekday">六</div>
+
+                    <div class="calendar-day"></div>
+                    <div class="calendar-day"></div>
+                    <div class="calendar-day">1</div>
+                    <div class="calendar-day">2</div>
+                    <div class="calendar-day">3</div>
+                    <div class="calendar-day">4</div>
+                    <div class="calendar-day">5</div>
+                    <div class="calendar-day">6</div>
+                    <div class="calendar-day">7</div>
+                    <div class="calendar-day today">8</div>
+                    <div class="calendar-day">9</div>
+                    <div class="calendar-day">10</div>
+                    <div class="calendar-day">11</div>
+                    <div class="calendar-day">12</div>
+                    <div class="calendar-day">13</div>
+                    <div class="calendar-day">14</div>
+                    <div class="calendar-day">15</div>
+                    <div class="calendar-day">16</div>
+                    <div class="calendar-day">17</div>
+                    <div class="calendar-day">18</div>
+                    <div class="calendar-day">19</div>
+                    <div class="calendar-day">20</div>
+                    <div class="calendar-day">21</div>
+                    <div class="calendar-day">22</div>
+                    <div class="calendar-day">23</div>
+                    <div class="calendar-day">24</div>
+                    <div class="calendar-day">25</div>
+                    <div class="calendar-day">26</div>
+                    <div class="calendar-day">27</div>
+                    <div class="calendar-day">28</div>
+                    <div class="calendar-day">29</div>
+                    <div class="calendar-day">30</div>
+                    <div class="calendar-day">31</div>
+                </div>
+            </div>
+
+            <!-- 应用网格 -->
+            <div class="app-grid-page">
+                <div class="app-icon-small">
+                    <div class="icon">🎮</div>
+                    <span>遊戲大廳</span>
+                </div>
+                <div class="app-icon-small">
+                    <div class="icon">🍎</div>
+                    <span>外出</span>
+                </div>
+            </div>
+
+            <!-- Dock栏 -->
+            <div class="dock-bar">
+                <div class="dock-icon" data-page="page-home">
+                    <div class="icon">🐱</div>
+                    <span>外观</span>
+                </div>
+                <div class="dock-icon" data-page="page-moments">
+                    <div class="icon">💕</div>
+                    <span>情侶空間</span>
+                </div>
+                <div class="dock-icon" data-page="page-forum">
+                    <div class="icon">P❤P</div>
+                    <span>論壇</span>
+                </div>
+                <div class="dock-icon" data-page="page-settings">
+                    <div class="icon">⚙️</div>
+                    <span>設置</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入脚本 -->
+    <script src="desktop-interactive-complete.js"></script>
+</body>
+</html>
